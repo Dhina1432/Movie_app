@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 import { useDebounce } from "react-use";
 
-import Search from "./Components/search";
+import Search from "./Components/Search.jsx";
 
-import Spinner from "./Components/spinner";
+import Spinner from "./Components/Spinner.jsx";
 
-import MovieCard from "./Components/MovieCard";
+import MovieCard from "./Components/MovieCard.jsx";
 
 import { getTrendingMovies, updateSearch } from "./appwrite.js";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const search = ({ searchList, setSearchList }) => {
+const Search = ({ searchList, setSearchList }) => {
   return (
     <div className="search">
       <div className="text-white text-3xl">
@@ -16,4 +16,4 @@ const search = ({ searchList, setSearchList }) => {
   );
 };
 
-export default search;
+export default Search;
